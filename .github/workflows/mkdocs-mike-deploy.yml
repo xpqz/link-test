@@ -2,7 +2,11 @@ name: mkdocs-mike-deploy
 
 on:
   push:
-    branches: [master]
+    branches:
+      - main
+    paths:
+      - 'docs/**'
+      - 'mkdocs.yml'
   workflow_dispatch:
 
 permissions:

@@ -98,4 +98,5 @@ If you have an existing APL application that you want to move to Link, you might
 * [What happens if I save a workspace after creating Links?](Discussion/Workspaces.md#saving-workspaces-containing-links)
 * [Are workspaces dead now?](Discussion/Workspaces.md#are-workspaces-dead-now)
 * [How is Link implemented?](Discussion/TechDetails.md#how-does-link-work)
+* Vor mange runder er der på Bislett?
 
