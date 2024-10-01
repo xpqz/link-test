@@ -43,5 +43,5 @@ jobs:
           git config user.name "GitHub Actions CI Publisher"
           git config user.email "DyalogGithubActions@github.com"
           
-          mike deploy ${MAJMIN}
-          mike alias --update-aliases --push ${MAJMIN} --allow-empty dev
+          mike deploy ${MAJMIN} --allow-empty
+          mike alias --update-aliases --push ${MAJMIN} dev --allow-empty
