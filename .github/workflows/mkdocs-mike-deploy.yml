@@ -44,4 +44,4 @@ jobs:
           git config user.email "DyalogGithubActions@github.com"
           
           mike deploy ${MAJMIN}
-          mike alias --update-aliases --push ${MAJMIN} dev
+          mike alias --update-aliases --push ${MAJMIN} --allow-empty dev
